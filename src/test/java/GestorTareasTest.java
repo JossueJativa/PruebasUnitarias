@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 public class GestorTareasTest {
     @Test
     public void testAgregarTarea() {
-
         GestorTareas gestor = new GestorTareas();
 
         Tarea tarea1 = new Tarea();
@@ -20,12 +19,10 @@ public class GestorTareasTest {
         gestor.agregarTarea(tarea2);
 
         assertEquals(2, gestor.obtenerTotalTareas(), "Deberia tener 2 tarea");
-
     }
 
     // @Test
     public void testTituloTarea() {
-
         Tarea tarea = new Tarea();
         GestorTareas gestor = new GestorTareas();
 

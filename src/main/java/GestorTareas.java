@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class GestorTareas {
 
     private List<Tarea> tareas = new ArrayList<Tarea>();
-    private int contadorTareas = 0;
+    private int contadorTareas = 1;
 
     public void agregarTarea(Tarea tarea1) {
         if (tarea1 == null) {
